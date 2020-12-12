@@ -24,11 +24,9 @@ Pentru realizare proiectului am utilizat:
 - JavaScript -pentru afisarea unui search box
 
 - PHP - Stocarea datelor clientului într-un JSON: sendData.php
-
       - Afisarea zborurilor dupa oras
 
 - JSON - Stocarea datelor despre zboruri
-
        - Stocarea datelor clinetilor care au rezervat locuri
 
 - CSS - Stilizarea paginilor site-ului

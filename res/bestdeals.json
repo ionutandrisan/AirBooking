@@ -1,0 +1,50 @@
+[
+    {
+        "id": 11,
+        "origin": "Iasi",
+        "destination": "Roma",
+        "zi": "24",
+        "luna": "februarie",
+        "an": "2019",
+        "leave": "23:13",
+        "arrive": "1:03",
+        "pret": "59.99",
+        "liber": 5
+    },
+    {
+        "id": 12,
+        "origin": "Cluj",
+        "destination": "Bucuresti",
+        "zi": "25",
+        "luna": "februarie",
+        "an": "2019",
+        "leave": "23:13",
+        "arrive": "1:03",
+        "pret": "49.99",
+        "liber": 5
+    },
+    {
+        "id": 13,
+        "origin": "Iasi",
+        "destination": "Warsaw",
+        "zi": "16",
+        "luna": "februarie",
+        "an": "2019",
+        "leave": "23:13",
+        "arrive": "1:03",
+        "pret": "99.99",
+        "liber": 5
+    },
+    {
+        "id": 14,
+        "origin": "Iasi",
+        "destination": "Londra",
+        "zi": "28",
+        "luna": "ianuarie",
+        "an": "2019",
+        "leave": "23:13",
+        "arrive": "3:03",
+        "pret": "149.99",
+        "liber": 0
+    }
+]

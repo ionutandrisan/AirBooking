@@ -1,0 +1,26 @@
+[
+    {
+        "origin": "Suceava",
+        "destination": "Suceava"
+    },
+    {
+        "origin": "Cluj",
+        "destination": "Cluj"
+    },
+    {
+        "origin": "Iasi",
+        "destination": "Iasi"
+    },
+    {
+        "origin": "Paris",
+        "destination": "Paris"
+    },
+    {
+        "origin": "Roma",
+        "destination": "Roma"
+    },
+    {
+        "origin":"Bucuresti",
+        "destination":"Bucuresti"
+    }
+]

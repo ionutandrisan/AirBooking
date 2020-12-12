@@ -1,0 +1,313 @@
+/* reset css */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* css */
+html,body {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  background-image: url("Images/paris1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+
+}
+.top_block ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    overflow: hidden;
+    background-color: #4285f4;
+    
+  }
+  
+ .top_block li {
+    float: left;
+  }
+  .top_block li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .top_block li a:hover:not(.active) {
+    background-color: #4285f4;
+  }
+  .top_block ul h1 {
+      size: 15px;
+  }
+  
+  .container {
+    position: relative;
+  }
+  .offer1 {
+    position: absolute;
+    bottom: 500px;
+    right: 500px;
+    background-color: black;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 20px;
+  }
+
+  .img-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 32%;
+    border-radius: 12px;
+    box-shadow: 0px 6px 8px 0px black;
+  }
+
+  .img-container img {
+    width: 100%;
+  }
+
+  .img-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+
+  .img1 {
+    background-image: url("Images/icon2.png");
+
+  }
+ 
+
+  .city-block {
+    margin-left: 10%;
+    background-color: rgb(241, 247, 247);
+    height: 200px;
+    width: 215px;
+    padding-top: 2%;
+    padding-left: 30px;
+    margin-top: 100px;
+    border-radius: 8px;
+  }
+
+
+
+  .city-block input {
+    shape-margin: 5px;
+    width: 175px;
+    height: 25px;
+    border-radius: 5px;
+  }
+  .city-block button {
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #c6007e;
+    width: 100px;
+    height: 30px;
+    margin-left: 37px;
+    color: white;
+  }
+
+  .origin {
+    margin-left: 75px;
+    font-size:2em;
+    font-family: 'Times New Roman', Times, serif;
+    color:lightslategray;
+  }
+
+  .offerts {
+    height: 20%;
+    background-color: #c6007e;
+    color: white;
+    text-align: center;
+  }
+  
+
+  /*flights page*/
+  .banner-flight {
+    background-image: url("Images/plane.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*padding-bottom: 910px;*/
+    height: 155%;
+  }
+
+  .main_section{
+    width:64%;
+    height:auto;
+    box-shadow: 0px 8px 10px 0px black;
+    margin-top:1%;
+    float:right;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-bottom:0%;
+    background-color:white;
+    padding:15px;
+  }
+  
+  .main_section h2 {
+    padding-left: 40%;
+  }
+  
+  table, th, td {
+    margin-left: 10%;
+      margin-right: 10%;
+     /* border: 1px solid black;*/
+     
+    background-color: white;
+    white-space: nowrap;
+    
+  }
+  th, td {
+      padding: 15px;
+      text-align: left;
+      
+  }
+
+/*booking page*/
+
+  .banner_booking {
+    background-image: url("Images/img2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  
+  .button-booking {
+    border-radius: 12px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: #c6007e;
+  }
+  
+
+  .main_section_booking{
+    width: 60%;
+    height:90%;
+    margin-top:0%;
+    float:right;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-bottom:0%;
+    /* padding: 60px; */
+    background-color:white;
+    box-shadow: 0px 6px 8px 0px black;
+  }
+  .main_section_booking_trip {
+    width: 100%;
+    height: 15%;
+    background-color: #d6d6d6;
+    font-size: 40px;
+    font-style: bold;
+    color: blue;
+  }
+  .main_section_booking, .main_section_booking_trip {
+    padding: 0;
+  }
+  .main_section_booking_trip img{
+      height: 50px;
+      width: 50px;
+  }
+  .main_section_booking_trip h4, .main_section_booking_trip h6 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  
+
+  .main_section_booking input {
+    margin-left: 30%;
+    width: 40%;
+    height: 8%;
+    border: 1px solid grey;
+  }
+
+  .main_section_booking button {
+    margin-left: 40%;
+    width: 20%;
+    height: 8%;
+    color: white;
+    background-color: #c6007e;
+    /* font-style: bold; */
+  }
+  
+
+
+
+  /* For searching */
+  .search-container {
+    position: relative;
+  }
+
+  .search_results {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: #fff;
+    box-shadow: 0px 6px 8px 0px black;
+  }
+
+  .search_results li {
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+
+  footer {
+      text-align: center;
+      margin: 25px;
+      color: gray;
+  }

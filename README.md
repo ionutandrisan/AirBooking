@@ -25,15 +25,11 @@ Pentru realizare proiectului am utilizat:
 
 - PHP - Stocarea datelor clientului într-un JSON: sendData.php
 
-        - - Afisarea zborurilor dupa cautare oras
+      - Afisarea zborurilor dupa oras
 
-            -
-            -
-            -
 - JSON - Stocarea datelor despre zboruri
 
-    - -Stocarea datelor clinetilor care au rezervat locuri
-    -
+       - Stocarea datelor clinetilor care au rezervat locuri
 
 - CSS - Stilizarea paginilor site-ului
 
